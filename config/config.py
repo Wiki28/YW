@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/chnlwiki")
+    "SUPPORT_CHANNEL", "https://t.me/chnlwiki"
 )  # Example:- https://t.me/chnlwiki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/WikiModeGroup")
+    "SUPPORT_GROUP", "https://t.me/WikiModeGroup"
 )  # Example:- https://t.me/watasipride
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
