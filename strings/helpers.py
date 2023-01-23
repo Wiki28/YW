@@ -11,32 +11,32 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 
 **c** stands for channel play.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
+/pause or /cpause - Jeda pemutaran musik.
+/resume or /cresume- Lanjutkan musik yang dijeda.
+/mute or /cmute- Matikan musik yang sedang diputar.
+/unmute or /cunmute- Suarakan musik yang dibisukan.
+/skip or /cskip- Lewati musik yang sedang diputar.
+/stop or /cstop- Hentikan pemutaran musik.
+/shuffle or /cshuffle- Secara acak mengocok antrean playlist.
+/seek or /cseek - Teruskan Cari musik sesuai durasi Anda.
+/seekback or /cseekback - Mundur Cari musik sesuai durasi Anda.
+/restart - Mulai ulang bot untuk obrolan Anda.
 
 
 ✅<u>**Specific Skip:**</u>
 /skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+    - Melewatkan musik ke nomor antrean yang ditentukan. Contoh: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
 ✅<u>**Loop Play:**</u>
 /loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+    - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
 
 ✅<u>**Auth Users:**</u>
-Auth Users can use admin commands without admin rights in your chat.
+Pengguna Autentikasi dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
+/auth [Username] - Tambahkan pengguna ke AUTH LIST dari grup.
+/unauth [Username] - Hapus pengguna dari AUTH LIST dari grup.
+/authusers - Memeriksa AUTH LIST dari grup."""
 
 
 HELP_2 = """✅<u>**Play Commands:**</u>
