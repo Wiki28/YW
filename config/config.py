@@ -252,14 +252,14 @@ if SUPPORT_CHANNEL:
         sys.exit()
 
 if SUPPORT_GROUP:
-    if not re.match("(?:http|https)://WikiModeGroup", SUPPORT_GROUP):
+    if not re.match("(?:http|https)://t.me/WikiModeGroup", SUPPORT_GROUP):
         print(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
         sys.exit()
 
 if UPSTREAM_REPO:
-    if not re.match("(?:http|https)://WikiModeGroup", UPSTREAM_REPO):
+    if not re.match("(?:http|https)://t.me/WikiModeGroup", UPSTREAM_REPO):
         print(
             "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
         )
