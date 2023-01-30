@@ -69,7 +69,7 @@ SUPPORT_CHANNEL = getenv(
 )  # Example:- https://t.me/chnlwiki
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/WikiModeGroup"
-)  # Example:- https://t.me/watasipride
+)  # Example:- https://t.me/
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -138,8 +138,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQBJn-xcgiDBHSyUwl46ezj81FLK1Rvwkxe3ed7DnAhDtkmjYrW3FkrUgPAtCzRr4QUbNFrE42SDM_9Xv7NthWipOA4KmTwfGeYNsCHSPImlQhjRusg7xm_JIpJyibIqYsI_GgVrejlhYotLm6Aikx3WyhKWe8wCf7kD7iM9IaruCy49Q7MskWWiyhkgpU2Y56vWfGlIrji4S5lolo6bdlAA1jSj3_56AWsidKbn5aCkHwQU8YuRaFxIOGpCCMBnh38iNjXcckKT28CUhAyZP0QG-ziOAox-E3J6QwsDAQrvww-FL4UIlKI-VUCxmZUeboQ9sNR_kUOkq6EBVy7Lbb26AAAAAUd5iq0A")
-STRING2 = getenv("STRING_SESSION2", "BQBf8p7lhuAYBfCYsNV8oVG285knTb6SCJSgFOAIJEQpGg9NtTibSaVMgd0Hoe46CQUdqCYz7cxfAEqXlSM1Vv7SdMzCiSVipmylwc0W-H7DxyafTSHng4ovCG9fm9j6ZGcnnrAEmvhNMCpVlyqHzmcAPLed5hUIUqGMprd9gAG_vbJfTfr_tt1R-89D0eaqZiHROSNRTgpHBpEQ3rZKBKu_OE0Z7wH-LbHT3TyW3wQ9qdsSNf5RvD1QfM16_7vONvKCilVtnPuDLZ0FrzdIfV9XPpD8xQfOZ75H610cGGhY7LbGMeP5pM4KxIoOW9frd5ZYk2kyrJ84iKgXFPhrl3ZPAAAAAV4d_tAA")
+STRING1 = getenv("STRING_SESSION", "BQDASefOqOZhsdWoUAG_KipnshGHnWyZRvH9dPjtqTVMV1oAydSTCuhEsL37954Qf7BhCucHn4jY9FiyBodBQP_CTFQsPyBM0MC6KOdhHzURl4ClhODdk-8Ppc-BQ-KfF7Y4E6zPx0uEGKbCT_mTn_4z8cBjLTINEA6Tz6hUeOW65aJFgbDYF7_Pcx2d3DANa_p1KqyK5o0u6Wj7XeDmnY-85gnLYuYTnIc9SSXpmQ1X8COsYq207pUTvihblI3u0EBTao_AZqPy_U3lcMoqC9JnGzZ1QByzM6POTo_Skbs3QgQSodI_QOIE8lQfJG6KUmLx0K1BorWM9gwc_zHPSQuMdgzYWwA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -252,14 +252,14 @@ if SUPPORT_CHANNEL:
         sys.exit()
 
 if SUPPORT_GROUP:
-    if not re.match("(?:http|https)://", SUPPORT_GROUP):
+    if not re.match("(?:http|https)://WikiModeGroup", SUPPORT_GROUP):
         print(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
         sys.exit()
 
 if UPSTREAM_REPO:
-    if not re.match("(?:http|https)://", UPSTREAM_REPO):
+    if not re.match("(?:http|https)://WikiModeGroup", UPSTREAM_REPO):
         print(
             "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
         )
